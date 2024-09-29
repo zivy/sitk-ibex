@@ -5,19 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to sitk-ibex’s documentation! &#8212; sitk-ibex 0.4.dev29 documentation</title>
+    <title>Welcome to sitk-ibex’s documentation! &#8212; sitk-ibex 0.4.dev33 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=514cf933" />
+    <link rel="stylesheet" type="text/css" href="_static/classic.css?v=def86cc0" />
     
-    <script src="_static/documentation_options.js?v=c26945c8"></script>
-    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/documentation_options.js?v=16b5a8f0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Command Line Interface" href="commandline.html" /> 
   </head><body>
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -29,7 +29,7 @@
         <li class="right" >
           <a href="commandline.html" title="Command Line Interface"
              accesskey="N">next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">sitk-ibex 0.4.dev29 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="#">sitk-ibex 0.4.dev33 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Welcome to sitk-ibex’s documentation!</a></li> 
       </ul>
     </div>  
@@ -66,7 +66,8 @@ The registration approach is implemented using the
 </ol>
 <section id="build-status">
 <h3>Build Status<a class="headerlink" href="#build-status" title="Link to this heading">¶</a></h3>
-<a class="reference external image-reference" href="https://github.com/niaid/sitk-ibex/actions?query=branch%3A+master+"><img alt="Master Build Status" src="https://github.com/niaid/sitk-ibex/workflows/Python%20Test%20and%20Package/badge.svg?branch=master&amp;event=push" /></a>
+<a class="reference external image-reference" href="https://github.com/niaid/sitk-ibex/actions?query=branch%3A+master+"><img alt="Master Build Status" src="https://github.com/niaid/sitk-ibex/workflows/Python%20Test%20and%20Package/badge.svg?branch=master&amp;event=push" />
+</a>
 <section id="installation">
 <h4>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h4>
 <p>The Python module is distributed on <a class="reference external" href="https://pypi.org/project/sitkibex/">PyPI - The Python Package Index</a>. The package can be installed by running:</p>
@@ -82,9 +83,10 @@ is required for reading OME-NGFF ZARR files, and may be omitted if not needed.</
 <section id="data">
 <h4>Data<a class="headerlink" href="#data" title="Link to this heading">¶</a></h4>
 <p>Sample data is available and described on Zenodo:</p>
-<a class="reference external image-reference" href="https://doi.org/10.5281/zenodo.4304786"><img alt="https://zenodo.org/badge/DOI/10.5281/zenodo.4304786.svg" src="https://zenodo.org/badge/DOI/10.5281/zenodo.4304786.svg" /></a>
+<a class="reference external image-reference" href="https://doi.org/10.5281/zenodo.4304786"><img alt="https://zenodo.org/badge/DOI/10.5281/zenodo.4304786.svg" src="https://zenodo.org/badge/DOI/10.5281/zenodo.4304786.svg" />
+</a>
 <p>Any image and transform file format supported by <a class="reference external" href="https://simpleitk.readthedocs.io/en/master/IO.html">SimpleITK’s IO</a>
-can be used by sitk-ibex. The NRRD or`NGFF &lt;<a class="reference external" href="https://ngff.openmicroscopy.org/latest/">https://ngff.openmicroscopy.org/latest/</a>&gt;`_ image formats, and <cite>txt</cite> transform file
+can be used by sitk-ibex. The NRRD or <a class="reference external" href="https://ngff.openmicroscopy.org/latest/">NGFF</a> image formats, and <cite>txt</cite> transform file
 extension are recommended.</p>
 </section>
 <section id="example">
@@ -116,7 +118,8 @@ results are white.</p>
 <section id="additional-example">
 <h4>Additional Example<a class="headerlink" href="#additional-example" title="Link to this heading">¶</a></h4>
 <p>Additional sample data:</p>
-<a class="reference external image-reference" href="https://doi.org/10.5281/zenodo.4632320"><img alt="https://zenodo.org/badge/DOI/10.5281/zenodo.4632320.svg" src="https://zenodo.org/badge/DOI/10.5281/zenodo.4632320.svg" /></a>
+<a class="reference external image-reference" href="https://doi.org/10.5281/zenodo.4632320"><img alt="https://zenodo.org/badge/DOI/10.5281/zenodo.4632320.svg" src="https://zenodo.org/badge/DOI/10.5281/zenodo.4632320.svg" />
+</a>
 <p>The sample Imaris files can be converted to OME-NGFF ZARR with
 <a class="reference external" href="https://github.com/glencoesoftware/bioformats2raw/releases">bioformats2raw</a>. The ims files contains one series, and
 for simplicity, the structure is generated without a series index in the hierarchy with the following commands:</p>
@@ -213,7 +216,7 @@ flake8, pytest and sphinx. When merging the branch with rebased onto the origin,
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
   <div>
     <h3><a href="#">Table of Contents</a></h3>
@@ -252,7 +255,7 @@ flake8, pytest and sphinx. When merging the branch with rebased onto the origin,
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
-<div id="searchbox" style="display: none" role="search">
+<search id="searchbox" style="display: none" role="search">
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
@@ -260,13 +263,13 @@ flake8, pytest and sphinx. When merging the branch with rebased onto the origin,
       <input type="submit" value="Go" />
     </form>
     </div>
-</div>
+</search>
 <script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -278,7 +281,7 @@ flake8, pytest and sphinx. When merging the branch with rebased onto the origin,
         <li class="right" >
           <a href="commandline.html" title="Command Line Interface"
              >next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">sitk-ibex 0.4.dev29 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="#">sitk-ibex 0.4.dev33 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Welcome to sitk-ibex’s documentation!</a></li> 
       </ul>
     </div>
